@@ -23,6 +23,8 @@ project:
     - file: Regex Basics.ipynb
 site:
   template: book-theme
-  # options:
+  options:
+    hide_outline: true
   #   favicon: favicon.ico
   #   logo: site_logo.png
+
