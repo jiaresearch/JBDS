@@ -1,4 +1,12 @@
 # See docs at: https://mystmd.org/guide/frontmatter
+
+# Jupyter Book Guides:
+# Installation: pip install "jupyter-book>=2.0.0"
+# Initialization: jupyter book init
+# Supported file content: .md, .ipynb, .tex
+# Start local server: jupyter book start
+# Initialize Github pages: jupyter book init --gh-pages (note: has to be a git depository)
+
 version: 1
 project:
   id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
