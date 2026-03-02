@@ -28,6 +28,7 @@ site:
     # class: col-page-right
     #hide_outline: true
     style: custom.css
+    logo_text: " "
   #   favicon: favicon.ico
   #   logo: site_logo.png
 
