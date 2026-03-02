@@ -24,7 +24,9 @@ project:
 site:
   template: book-theme
   options:
-    hide_outline: true
+   # class: col-page-left
+    #hide_outline: true
+    # style: custom.css
   #   favicon: favicon.ico
   #   logo: site_logo.png
 
