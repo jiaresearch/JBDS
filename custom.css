@@ -1,32 +1,10 @@
-:root {
-  /* Force the content width to be much larger */
-  --myst-content-max-width: 1300px !important;
-  --myst-article-max-width: 1300px !important;
-}
-
-/* Force the grid to redefine itself correctly */
-.article-grid {
-  display: grid !important;
-  /* Track 1: Left padding, Track 2: Your Content (1300px), Track 3: Right padding */
-  grid-template-columns: minmax(2rem, 1fr) minmax(0, 1300px) minmax(2rem, 1fr) !important;
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-}
-
-/* Fix for the overlapping Introduction header */
-.article-grid > header,
-.article-grid > footer,
-.article-grid > main,
-article {
-  grid-column: 2 !important; /* Forces content into the middle track */
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-/* Ensure code blocks use all 1300px to kill scrollbars */
-.myst-code-block,
-.cell-input,
-.cell-output {
-  width: 100% !important;
+/* Force soft-wrapping for all text outputs and preformatted blocks */
+pre,
+code,
+[data-mime-type="text/plain"],
+[data-mime-type="text/plain"] pre {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow-wrap: anywhere !important;
+  overflow-x: hidden !important;
 }

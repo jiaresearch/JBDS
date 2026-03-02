@@ -7,6 +7,7 @@
 # Start local server: jupyter book start
 # Initialize Github pages: jupyter book init --gh-pages (note: has to be a git depository)
 
+
 version: 1
 project:
   id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
@@ -24,9 +25,9 @@ project:
 site:
   template: book-theme
   options:
-   # class: col-page-left
+    # class: col-page-right
     #hide_outline: true
-    # style: custom.css
+    style: custom.css
   #   favicon: favicon.ico
   #   logo: site_logo.png
 
