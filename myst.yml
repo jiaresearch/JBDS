@@ -23,6 +23,7 @@ project:
     - file: intro.md
     - file: Regex Basics.ipynb
     - file: Pandas.ipynb
+    - file: Pandas Data Aggregation.ipynb
 site:
   template: book-theme
   options:
